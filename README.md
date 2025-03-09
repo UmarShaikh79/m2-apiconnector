@@ -1,7 +1,7 @@
 # M2_APIConnector
 
 ## Overview
-M2_APIConnector is a Magento 2 module designed to send REST API requests to external systems. Initially built for CommerceLink integration, this module is now designed to work with **any** API by extending its abstract class. It leverages **GuzzleHttp** for request handling and includes built-in logging for request/response tracking.
+M2_APIConnector is a Magento 2 module designed to send REST API requests to external systems. This module is now designed to work with **any** API by extending its abstract class. It leverages **GuzzleHttp** for request handling and includes built-in logging for request/response tracking.
 
 ## Features
 - **Abstract API Integration** – Extendable for any API without modifying the core logic.

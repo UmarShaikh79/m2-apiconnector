@@ -45,6 +45,9 @@ class Configuration implements ConfigurationInterface
     /** @var string */
     private $contentType;
 
+    /** @var string */
+    private $userAgent;
+
     public function getServiceUrl(): string
     {
         return $this->serviceUrl;
@@ -133,5 +136,15 @@ class Configuration implements ConfigurationInterface
     public function getContentType(): string
     {
         return $this->contentType;
+    }
+
+    public function getUserAgent(): string
+    {
+        return $this->userAgent;
+    }
+
+    public function setUserAgent(string $userAgent): void
+    {
+        $this->userAgent = $userAgent;
     }
 }

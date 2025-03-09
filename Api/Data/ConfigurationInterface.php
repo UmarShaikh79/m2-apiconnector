@@ -53,5 +53,5 @@ interface ConfigurationInterface
 
     public function getUserAgent(): string;
 
-    public function setUserAgent(string $userAgent): string;
+    public function setUserAgent(string $userAgent): void;
 }

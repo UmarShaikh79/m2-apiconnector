@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2024, All rights reserved.
+ *
+ * This file is part of the M2_IntegrationBridge module.
+ *
+ * This module provides a flexible integration layer using GuzzleHttp.
+ * Licensed under the MIT License. See LICENSE file for details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="M2_APIConnector" setup_version="1.0.0"/>
+</config>

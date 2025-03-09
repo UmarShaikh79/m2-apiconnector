@@ -1,0 +1,27 @@
+{
+    "name": "m2/apiconnector",
+    "description": "M2 REST-API PHP Client",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Umar",
+            "email": "umarshiekh619@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4 <9.0",
+        "magento/framework": "^103.0 || ^104.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/serializer": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "M2\\APIConnector\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
